@@ -98,6 +98,6 @@ function placeOrder(cardNumber) {
   else {
     // Empty cart
     cart.splice(0);
-    return `Your total cost is $${totalCost}, which will be cahrged to the card ${cardNumber}`;
+    return `Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`;
   }
 }
